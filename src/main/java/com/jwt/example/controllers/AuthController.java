@@ -66,9 +66,9 @@ public class AuthController {
 
     }
 
-//    @ExceptionHandler(BadCredentialsException.class)
-//    public String exceptionHandler() {
-//        return "Credentials Invalid !!";
-//    }
+    @ExceptionHandler(BadCredentialsException.class)
+    public String exceptionHandler() {
+        return "Credentials Invalid !!";
+    }
 
 }
